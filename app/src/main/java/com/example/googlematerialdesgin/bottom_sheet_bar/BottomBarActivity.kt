@@ -79,7 +79,6 @@ class BottomBarActivity : AppCompatActivity() {
         }
         bottomAppBar.setNavigationOnClickListener {
             Toast.makeText(this, "Clicked navigation item", Toast.LENGTH_SHORT).show()
-
             var bottomSheetAppBar = BottomSheetNavigationFragment.newInstance()
             bottomSheetAppBar.show(supportFragmentManager,"Bottom Sheet Dialog Fragment")
         }
