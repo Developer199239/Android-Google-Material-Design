@@ -9,13 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".bottom_navigation_bar.BottomNavigationBarActivity"
-            android:theme="@style/AppTheme.TopAppBar.Themed"
+        <activity android:name=".tab_layout.TabLayoutActivity"
+            android:theme="@style/TabLayoutTheme"
             >
+
         </activity>
         <activity
-            android:name=".top_app_bar.TopAppBarActivity"
+            android:name=".bottom_navigation_bar.BottomNavigationBarActivity"
             android:theme="@style/AppTheme.TopAppBar.Themed"></activity>
+        <activity
+            android:name=".top_app_bar.TopAppBarActivity"
+            android:theme="@style/AppTheme.TopAppBar.Themed" />
         <activity
             android:name=".bottom_sheet_bar.BottomBarActivity"
             android:theme="@style/AppTheme.BottomAppBar.Themed" />
