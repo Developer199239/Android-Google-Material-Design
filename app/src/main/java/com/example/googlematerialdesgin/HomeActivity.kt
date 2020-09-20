@@ -3,6 +3,7 @@ package com.example.googlematerialdesgin
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.googlematerialdesgin.bottom_navigation_bar.BottomNavigationBarActivity
 import com.example.googlematerialdesgin.bottom_sheet_bar.BottomBarActivity
 import com.example.googlematerialdesgin.top_app_bar.TopAppBarActivity
 import kotlinx.android.synthetic.main.activity_home.*
@@ -19,6 +20,11 @@ class HomeActivity : AppCompatActivity() {
 
         btn_top_app_bar.setOnClickListener {
             var intent = Intent(this@HomeActivity, TopAppBarActivity::class.java)
+            startActivity(intent)
+        }
+
+        btn_bottom_navigation_bar.setOnClickListener {
+            var intent = Intent(this@HomeActivity, BottomNavigationBarActivity::class.java)
             startActivity(intent)
         }
     }

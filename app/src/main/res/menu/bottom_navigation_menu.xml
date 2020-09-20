@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/page_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"
+        />
+    <item
+        android:id="@+id/page_library"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_library_music_24"
+        android:title="Library"/>
+    <item
+        android:id="@+id/page_radio"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_radio_24"
+        android:title="Radio"/>
+</menu>

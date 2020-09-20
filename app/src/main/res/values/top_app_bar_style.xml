@@ -34,6 +34,8 @@
         <item name="actionModeCloseDrawable">@drawable/ic_close_black_24dp</item>
         <item name="actionBarTheme">@style/ThemeOverlay.MaterialComponents.Dark.ActionBar</item>
 
+    <!--  bottom      -->
+        <item name="bottomNavigationStyle">@style/Widget.MaterialComponents.BottomNavigationView</item>
     </style>
 
     <style name="AppTopAppBar" parent="Widget.MaterialComponents.BottomAppBar.Colored">

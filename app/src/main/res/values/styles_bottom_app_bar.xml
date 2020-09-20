@@ -27,6 +27,7 @@
         <item name="shapeAppearanceLargeComponent">@style/AppShapeAppearance.LargeComponent</item> -->
         <!-- Bottom App Bar widget style attribute -->
         <item name="bottomAppBarStyle">@style/AppBottomAppBar</item>
+        <item name="bottomNavigationStyle">@style/Widget.MaterialComponents.BottomNavigationView</item>
     </style>
 
     <style name="AppBottomAppBar" parent="Widget.MaterialComponents.BottomAppBar.Colored">
